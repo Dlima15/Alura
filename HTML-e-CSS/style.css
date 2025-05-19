@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: #000000;
     color: #F6F6F6;
@@ -10,4 +13,53 @@ body{
 
 .titulo-destaque{
     color: #22D4FD;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 13%;
+    
+}
+
+.text{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.title{
+    font-size: 36px;
+    font-family: krona system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 593;
+}
+
+.paragrafo{
+    font-family: montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 36;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a{
+    background-color: #22D4FD;
+    width: 280px;
+    height: 39px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 0;
+
 }
